@@ -1,12 +1,33 @@
-# Cerebrovascular-Event-Prediction
-This project leverages advanced machine learning techniques to predict the likelihood of cerebrovascular events (strokes) using health data. The dataset includes critical features such as age, hypertension, heart disease, blood glucose levels, BMI, and smoking status, with preprocessing steps to handle missing data and outliers effectively.
+# Brain Stroke Predictor
 
-Key features include:
 
-1. Machine Learning Models: Implemented XGBoost, Logistic Regression, and Deep Learning Neural Networks to optimize prediction performance, achieving 85% precision and an AUC-ROC score of 0.92.
-2. Feature Selection and Engineering: Applied statistical methods and PCA to identify significant predictors and reduce dimensionality for improved efficiency.
-3. Explainable AI: Integrated SHAP values to provide transparency in model predictions, aiding medical professionals in understanding decision factors.
-4. Healthcare Impact: Focused on early risk detection to assist healthcare providers in timely interventions, potentially reducing severe outcomes and improving patient care.
-5. Technologies Used: Python, Scikit-learn, XGBoost, TensorFlow, SHAP, Matplotlib, Pandas.
+### Problem : 
 
-This repository contains code for data preprocessing, model implementation, evaluation metrics, and visualizations, making it a comprehensive solution for stroke risk prediction. Ideal for healthcare applications aiming to leverage AI for predictive analytics.
+Damage to the brain from interruption of its blood supply. A stroke is a medical emergency. Symptoms of stroke include trouble walking, speaking and understanding, as well as paralysis or numbness of the face, arm or leg. Early treatment with medication like tPA (clot buster) can minimise brain damage. Other treatments focus on limiting complications and preventing additional strokes.
+
+### Solution:
+
+This Web app will help you to predict whether a person has chances of cardiac arrest or is prone to get it in future by analysing the values of several features using the Decision Tree Classifier.
+
+### Idea: 
+Building an application that can predict the occurrence of a cardiac arrest or the possible causes of it by indicating the highly relevant factors. 
+
+### Layout
+
+```
+├───images
+├───Tabs
+│   └───__pycache__
+|   └─── home.py
+|   └─── data.py
+|   └─── predict.py
+|   └─── visualize.py
+└───__pycache__
+└─── main.py
+└─── BS.csv
+└─── web_functions.py
+└─── requirements.txt
+└─── Procfile
+└─── setup.sh
+```
+
